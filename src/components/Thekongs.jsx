@@ -7,7 +7,7 @@ import kongPrince from "../assets/image/kong-prince.png";
 import kongcat from "../assets/image/kong-cat.png";
 import HeMan from "../assets/image/He-Man.png";
 import Anonymous from "../assets/image/Anonymous.png";
-import Pac from "../assets/image/2pac.png";
+import Pac from "../assets/image/Pac.png";
 import Elvis from "../assets/image/Elvis.png";
 
 function Thekongs() {
