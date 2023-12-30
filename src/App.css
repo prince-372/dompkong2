@@ -1,0 +1,45 @@
+@import url('https://db.onlinewebfonts.com/c/d03165bd677535fe8da7479e26b13180?family=Azo+Sans+Uber+W01+Regular');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.bg-header-img{
+  background-image: url("./assets/image/bg-header-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.bg-mint-img{
+  background-image: url("./assets/image/bg-sec-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.bg-faqs{
+  background-image: url("./assets/image/faq-bg-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.accordion-header {
+  border: 1px solid #000;
+  padding: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.border-gray-200 {
+  opacity: 7 !important;
+  border-color: #FDDA60 !important;
+}
