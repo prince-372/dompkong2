@@ -1,5 +1,6 @@
 
 import './App.css';
+import { useEffect } from 'react';
 import About from './components/About';
 import Header from './components/Header';
 import Utilities from './components/Utilities';
@@ -11,13 +12,19 @@ import Faqs from './components/Faqs';
 import Roadmap from './components/Roadmap';
 import BackToTop from './components/Backtotop';
 import Priloder from './components/priloder';
+import { Tabs } from 'flowbite';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+// import Navhead from './components/Nevhead';
+
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <div>
-      <div className='bg-header-img'>
       <Header/>
-      </div>
       <About/>
       <Utilities/>
       <Thekongs/>
@@ -28,6 +35,7 @@ function App() {
       <Faqs/>
       <BackToTop/>
       <Priloder/>
+      {/* <Tabs/> */}
     </div>
   );
 }

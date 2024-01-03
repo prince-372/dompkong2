@@ -4,11 +4,14 @@ const Utilities = () => {
   return (
     <div>
       <div className="max-w-[1140px] mx-auto px-3 pb-5 md:pb-[154px]">
-        <h2 className=" text-[51px] md:text-[64px] font-normal leading-[108%] text-white font-azo text-center pt-10 ">
+        <h2 className=" text-[51px] md:text-[64px] font-normal leading-[108%] text-white font-azo text-center pt-10 "
+         data-aos="zoom-in"
+         data-aos-once="true">
           Utilities
+          
         </h2>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 pt-14 gap-4 ">
-          <div className=" rounded-2xl border border-[rgba(255, 255, 255, 0.20)] py-[22px] px-[20px] bg-[#353535] relative hover:bg-[#FDDA60] hover:text-black duration-300 group">
+          <div data-aos="flip-left" data-aos-once="true" className=" rounded-2xl border border-[#646464] border-[rgba(255, 255, 255, 0.20)] py-[22px] px-[20px] relative hover:bg-[#FDDA60] hover:text-black duration-300 group">
             <span className=" flex flex-col items-center ">
               <svg
                 width="56"
@@ -21,41 +24,41 @@ const Utilities = () => {
                   className="group-hover:stroke-black"
                   d="M32.6654 4.6665L13.9987 4.6665C12.761 4.6665 11.574 5.15817 10.6989 6.03334C9.8237 6.90851 9.33203 8.09549 9.33203 9.33317L9.33203 46.6665C9.33203 47.9042 9.8237 49.0912 10.6989 49.9663C11.574 50.8415 12.761 51.3332 13.9987 51.3332L41.9987 51.3332C43.2364 51.3332 44.4234 50.8415 45.2985 49.9663C46.1737 49.0912 46.6654 47.9042 46.6654 46.6665L46.6654 18.6665L32.6654 4.6665Z"
                   stroke="white"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   className="group-hover:stroke-black"
                   d="M32.668 4.6665V18.6665H46.668"
                   stroke="white"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   className="group-hover:stroke-black"
                   d="M37.3346 30.3335L18.668 30.3335"
                   stroke="white"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   className="group-hover:stroke-black"
                   d="M37.3346 39.6665H18.668"
                   stroke="white"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   className="group-hover:stroke-black"
                   d="M23.3346 21H21.0013H18.668"
                   stroke="white"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </span>
@@ -67,10 +70,10 @@ const Utilities = () => {
               amet et. Erat nam molestie. Vitae mollis lacus senectus mattis
               nisl. Porta , adipiscing sed mus diam amet, ac sed tellus.{" "}
             </p>
-            <div className="w-[91px] h-[28px] bg-[#fff] blur-[94px] absolute right-0 top-0"></div>
-            <div className="w-[91px] h-[28px] bg-[#fff] blur-[94px] absolute left-0 bottom-0"></div>
+            <div className="w-[91px] h-[91px] bg-[#fff] blur-[94px] absolute right-0 top-0"></div>
+            <div className="w-[91px] h-[91px] bg-[#fff] blur-[94px] absolute left-0 bottom-0"></div>
           </div>
-          <div className="rounded-2xl border border-[rgba(255, 255, 255, 0.20)] py-[22px] px-[20px] bg-[#353535] relative hover:bg-[#FDDA60] hover:text-black duration-300 group">
+          <div data-aos="flip-left" data-aos-once="true" className="rounded-2xl border border-[#646464] border-[rgba(255, 255, 255, 0.20)] py-[22px] px-[20px]  relative hover:bg-[#FDDA60] hover:text-black duration-300 group">
             <span className=" flex flex-col items-center ">
               <svg
                 width="56"
@@ -82,16 +85,16 @@ const Utilities = () => {
                 <path className="group-hover:stroke-black"
                   d="M46.668 16.3335H9.33464C6.75731 16.3335 4.66797 18.4228 4.66797 21.0002V44.3335C4.66797 46.9108 6.75731 49.0002 9.33464 49.0002H46.668C49.2453 49.0002 51.3346 46.9108 51.3346 44.3335V21.0002C51.3346 18.4228 49.2453 16.3335 46.668 16.3335Z"
                   stroke="white"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path className="group-hover:stroke-black"
                   d="M37.3346 49V11.6667C37.3346 10.429 36.843 9.242 35.9678 8.36683C35.0926 7.49167 33.9056 7 32.668 7H23.3346C22.097 7 20.91 7.49167 20.0348 8.36683C19.1596 9.242 18.668 10.429 18.668 11.6667V49"
                   stroke="white"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </span>
@@ -103,10 +106,10 @@ const Utilities = () => {
               amet et. Erat nam molestie. Vitae mollis lacus senectus mattis
               nisl. Porta , adipiscing sed mus diam amet, ac sed tellus.{" "}
             </p>
-            <div className="w-[91px] h-[28px] bg-[#fff] blur-[94px] absolute right-0 top-0"></div>
-            <div className="w-[91px] h-[28px] bg-[#fff] blur-[94px] absolute left-0 bottom-0"></div>
+            <div className="w-[91px] h-[91px] bg-[#fff] blur-[94px] absolute right-0 top-0"></div>
+            <div className="w-[91px] h-[91px] bg-[#fff] blur-[94px] absolute left-0 bottom-0"></div>
           </div>
-          <div className="rounded-2xl border border-[rgba(255, 255, 255, 0.20)] py-[22px] px-[20px] bg-[#353535] relative hover:bg-[#FDDA60] hover:text-black duration-300 group">
+          <div data-aos="flip-left" data-aos-once="true" className="rounded-2xl border border-[#646464] border-[rgba(255, 255, 255, 0.20)] py-[22px] px-[20px]  relative hover:bg-[#FDDA60] hover:text-black duration-300 group">
             <span className=" flex flex-col items-center ">
               <svg className="group-hover:fill-black"
                 width="56"
@@ -137,8 +140,8 @@ const Utilities = () => {
               amet et. Erat nam molestie. Vitae mollis lacus senectus mattis
               nisl. Porta , adipiscing sed mus diam amet, ac sed tellus.{" "}
             </p>
-            <div className="w-[91px] h-[28px] bg-[#fff] blur-[94px] absolute right-0 top-0"></div>
-            <div className="w-[91px] h-[28px] bg-[#fff] blur-[94px] absolute left-0 bottom-0"></div>
+            <div className="w-[91px] h-[91px] bg-[#fff] blur-[94px] absolute right-0 top-0"></div>
+            <div className="w-[91px] h-[91px] bg-[#fff] blur-[94px] absolute left-0 bottom-0"></div>
           </div>
         </div>
       </div>

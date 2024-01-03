@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import MainKong from "../assets/image/He-Man.png";
 
 const Preloader = () => {
     const [loder, setloader] = useState(true);

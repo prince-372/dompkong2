@@ -6,7 +6,8 @@ function Section5() {
   return (
     <>
       <div className="bg-[#0A0A0A] min-h-[1044px] pb-6 xl:pb-0">
-        <h2 className="text-white text-center font-azo text-[50px] sm:text-[64px] not-italic font-normal leading-[108.744%] pt-4 md:pt-[94px] pb-[71px]">
+        <h2  data-aos="zoom-in"
+          data-aos-once="true"   className="text-white text-center font-azo text-[50px] sm:text-[64px] not-italic font-normal leading-[108.744%] pt-4 md:pt-[94px] pb-[71px]">
           Roadmap
         </h2>
         <div className="max-w-[1234px] mx-auto px-3 min-h-[558px] flex flex-wrap justify-center">
@@ -19,7 +20,7 @@ function Section5() {
             />
           </div>
           <div className="w-[100%] xl:w-[64%] relative flex flex-col gap-y-6">
-            <div className="flex items-center xl:max-w-[903px] xl:absolute xl:top-[1%] xl:left-[-24%] group">
+            <div className="flex items-center xl:max-w-[903px] xl:absolute xl:top-[-3%] xl:left-[-24%] group">
               <svg
                 className="shrink-0 hidden xl:block"
                 xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +49,7 @@ function Section5() {
               </div>
             </div>
 
-            <div className="flex items-center w-full xl:max-w-[806px] xl:absolute xl:top-[20%] xl:left-[-8%] group">
+            <div className="flex items-center w-full xl:max-w-[806px] xl:absolute xl:top-[18%] xl:left-[-8%] group">
               <svg
                 className="shrink-0 hidden xl:block"
                 xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +78,7 @@ function Section5() {
               </div>
             </div>
 
-            <div className="flex items-center w-full xl:max-w-[779px] xl:absolute xl:top-[41%] xl:left-[-4%] group">
+            <div className="flex items-center w-full xl:max-w-[779px] xl:absolute xl:top-[40%] xl:left-[-4%] group">
               <svg
                 className="shrink-0 hidden xl:block"
                 xmlns="http://www.w3.org/2000/svg"
@@ -135,7 +136,7 @@ function Section5() {
               </div>
             </div>
 
-            <div className="flex items-center w-full xl:max-w-[857px] xl:absolute xl:bottom-[5%] xl:left-[-19%] group duration-300">
+            <div className="flex items-center w-full xl:max-w-[857px] xl:absolute xl:bottom-[2%] xl:left-[-17%] group duration-300">
               <svg
                 className="shrink-0 hidden xl:block"
                 xmlns="http://www.w3.org/2000/svg"
@@ -166,7 +167,7 @@ function Section5() {
           </div>
         </div>
         <div className="flex justify-center mt-11">
-        <button className=" duration-300 hover:animate-pulse bg-[#FDDA60] rounded-[4px] shadow-[0px_9px_29px_0px_rgba(253,218,96,0.50)] py-4 px-6 font-azo text-[20px] font-normal"> Read Our Whitepaper</button>
+        <button className=" duration-300 hover:bg-transparent hover:text-white hover:outline  bg-[#FDDA60] rounded-[4px] shadow-[0px_9px_29px_0px_rgba(253,218,96,0.50)] py-4 px-6 font-azo text-[20px] font-normal"> Read Our Whitepaper</button>
         </div>
       </div>
     </>

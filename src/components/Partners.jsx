@@ -7,7 +7,7 @@ import img2 from "../assets/image/img-2.png";
 import img3 from "../assets/image/img-3.png";
 import img4 from "../assets/image/img-4.png";
 
-function Section6() {
+function Partners() {
   var settings = {
     dots: true,
     infinite: true,
@@ -52,7 +52,8 @@ function Section6() {
     <>
       <div className="bg-[#0A0A0A]">
         <div className="max-w-[1164px] px-3 mx-auto py-6">
-          <h2 className="text-white text-center font-azo text-[50px] sm:text-[64px] not-italic font-normal leading-[108.744%] pb-[52px]">
+          <h2  data-aos="zoom-in"
+          data-aos-once="true" className="text-white text-center font-azo text-[50px] sm:text-[64px] not-italic font-normal leading-[108.744%] pb-[52px]">
             Partners
           </h2>
           <div className="mb-[94px]">
@@ -97,4 +98,4 @@ function Section6() {
   );
 }
 
-export default Section6;
+export default Partners;
